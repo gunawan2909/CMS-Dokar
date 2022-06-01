@@ -11,34 +11,19 @@
     @foreach ($catagories as $catagory)
         <div class="container mb-5">
             <div class="col">
-
                 <h1>{{ $catagory->name }}
-
                     <a href="{{ Route('profile.edit', $catagory->id) }}" class="btn btn-warning"><span
                             data-feather="edit"></span></a>
                     <form action="{{ Route('profile.destroy', $catagory->id) }}" method="POST" class="d-inline">
                         @csrf
                         @method('DELETE')
-
                         <button type="submit" class="btn btn-danger"><span data-feather="trash-2"
                                 onclick="return confirm('Apakah Anda yakin ingin menghapus data {{ $catagory->name }}?')"></span></button>
                     </form>
-
             </div>
 
             <h6>{{ $catagory->describe }}</h6>
-            <div class="row row-cols-4">
-                @foreach ($catagory->content as $item)
-                    <div class="card m-1" style="width: 18rem;">
-                        <img src="{{ asset('storage/' . $item->directory) }}" class="card-img-top">
-                        <div class="card-body">
-                            <h4>{{ $item->name }}</h4>
-                            <p>{!! $item->body !!} </p>
-                        </div>
-                    </div>
-                @endforeach
-
-            </div>
+            @include('Dashboard.view')
         </div>
     @endforeach
 

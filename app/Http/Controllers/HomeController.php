@@ -33,10 +33,12 @@ class HomeController extends Controller
     {
         $dataValidate = $request->validate([
             'name_catagory' => 'required|max:255',
-            'describe' => 'max:1000'
+            'describe' => 'max:1000',
+
         ]);
         $data['name'] = $dataValidate['name_catagory'];
         $data['describe'] = $dataValidate['describe'];
+        $data['view'] = $request->view;
         $data['page'] = 'home';
         Catagory::create($data);
 
@@ -68,6 +70,7 @@ class HomeController extends Controller
         $data['name'] = $dataValidate['name_catagory'];
         $data['describe'] = $dataValidate['describe'];
         $data['page'] = 'home';
+        $data['view'] = $request->view;
         Catagory::where('id', $id)->update($data);
 
         return redirect('/dashboard/home')->with('success', 'Data Berhasil Diubah');

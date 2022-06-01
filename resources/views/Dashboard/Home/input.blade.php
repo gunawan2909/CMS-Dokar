@@ -16,10 +16,18 @@
                 </div>
             @enderror
         </div>
-        <div class="input-group mb-3">
-            <input type="file" class="form-control" id="inputGroupFile02">
-            <label class="input-group-text" for="inputGroupFile02">Upload</label>
-        </div>
+        <label for="view" class="form-label">View</label>
+        <select class="form-select @error('view') is-invalid @enderror" name="view">
+            <option value="1">Tampilan 1</option>
+            <option value="2">Tampilan 2</option>
+            <option value="3">Tampilan 3</option>
+        </select>
+        @error('view')
+            <div class="invalid-feedback">
+                {{ $message }}
+            </div>
+        @enderror
+
         <div class="mb-3">
             <label for="describe" class="form-label">Keterangan Katagori Konten</label>
             <textarea class="form-control @error('describe') is-invalid @enderror" id="describe" name="describe"

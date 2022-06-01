@@ -47,6 +47,7 @@ class ProfileController extends Controller
         $data['name'] = $dataValidate['name_catagory'];
         $data['describe'] = $dataValidate['describe'];
         $data['page'] = 'profile';
+        $data['view'] = $request->view;
         Catagory::create($data);
 
         return redirect('/dashboard/profile')->with('success', 'Data Berhasil Ditambahkan');
@@ -93,6 +94,7 @@ class ProfileController extends Controller
         $data['name'] = $dataValidate['name_catagory'];
         $data['describe'] = $dataValidate['describe'];
         $data['page'] = 'profile';
+        $data['view'] = $request->view;
         Catagory::where('id', $profile->id)->update($data);
 
         return redirect('/dashboard/profile')->with('success', 'Data Berhasil Diubah');
