@@ -29,9 +29,9 @@
         </div>
         <label for="view" class="form-label">View</label>
         <select class="form-select @error('view') is-invalid @enderror" name="view">
-            <option value="1">Tampilan 1</option>
-            <option value="2">Tampilan 2</option>
-            <option value="3">Tampilan 3</option>
+            <option {{ $catagory->view === '1' ? 'selected' : '' }} value="1">Tampilan 1</option>
+            <option {{ $catagory->view === '2' ? 'selected' : '' }} value="2">Tampilan 2</option>
+            <option {{ $catagory->view === '3' ? 'selected' : '' }} value="3">Tampilan 3</option>
         </select>
         @error('view')
             <div class="invalid-feedback">
@@ -55,6 +55,7 @@
     <div class="row row-cols-4">
         @foreach ($catagory->content as $item)
             <div class="card m-1" style="width: 18rem;">
+
                 <img src="{{ asset('storage/' . $item->directory) }}" class="card-img-top">
                 <div class="card-body">
                     <h4>{{ $item->name }}</h4>

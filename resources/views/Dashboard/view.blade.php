@@ -37,5 +37,27 @@
         </div>
     @break
 
-    @default
-@endswitch
+    @case('3')
+        <div class="d-flex justify-content-center">
+            <div class="col-5">
+                @foreach ($catagory->content as $item)
+                    <div class="row">
+                        <div class="col">
+                            <img src="{{ asset('storage/' . $item->directory) }}">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <h5 class="text-center">{{ $item->name }}</h5>
+                            </div>
+                            <div class="row">
+                                <p class="text-center">{!! $item->body !!} </p>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+
+            </div>
+        @break
+
+        @default
+    @endswitch

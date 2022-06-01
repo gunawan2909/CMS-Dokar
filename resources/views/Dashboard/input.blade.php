@@ -8,6 +8,7 @@
         @csrf
         <div class="mb-3">
             <input type="hidden" name="Catagory_id" value="{{ $catagory->id }}">
+            <input type="hidden" name="page" value="{{ $catagory->page }}">
             <label for="name" class="form-label">Nama Konten</label>
             <input class="form-control @error('name') is-invalid @enderror" id="name" name="name" autofocus
                 value="{{ old('name') }}">

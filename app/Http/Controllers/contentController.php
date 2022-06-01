@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Catagory;
 use App\Models\Content;
+use App\Models\Catagory;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
 
 class contentController extends Controller
@@ -49,7 +50,7 @@ class contentController extends Controller
 
 
         Content::create($dataValidate);
-        $con = '/dashboard/home/' . $request->Catagory_id . '/edit';
+        $con = '/dashboard/' . strtolower($request->page) . '/' . $request->Catagory_id . '/edit';
         return redirect($con)->with('success', 'Data Berhasil Ditambahkan');
     }
 
@@ -93,7 +94,7 @@ class contentController extends Controller
         $dataValidate = $request->validate([
             'name' => 'required|max:255',
             'body' => 'required',
-            'image' => 'required|image|file|max:2024',
+            'image' => 'image|file|max:2024',
             'Catagory_id' => 'required'
         ]);
 
@@ -112,7 +113,7 @@ class contentController extends Controller
 
 
         Content::where('id', $content->id)->update($data);
-        $con = '/dashboard/home/' . $request->Catagory_id . '/edit';
+        $con = '/dashboard/' . strtolower($content->catagory->page) . '/' . $request->Catagory_id . '/edit';
 
         return redirect($con)->with('success', 'Data Berhasil Diubah');
     }
@@ -125,7 +126,7 @@ class contentController extends Controller
      */
     public function destroy(Content $content)
     {
-        $con = '/dashboard/home/' . $content->Catagory_id . '/edit';
+        $con = '/dashboard/' . strtolower($content->catagory->page)  . '/' . $content->Catagory_id . '/edit';
 
         Storage::delete($content->directory);
         Content::destroy($content->id);
