@@ -15,7 +15,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link {{ $active === 'pelayanan' ? 'active' : '' }} " aria-current="page"
-                    href="{{ Route('home.index') }}">
+                    href="{{ Route('pelayanan.index') }}">
                     Pelayanan
                 </a>
             </li>

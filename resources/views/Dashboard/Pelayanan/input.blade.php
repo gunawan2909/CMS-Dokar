@@ -4,7 +4,7 @@
     <div class="border-bottom">
         <h1>Masukan data</h1>
     </div>
-    <form action="{{ Route('profile.store') }}" method="post">
+    <form action="{{ Route('pelayanan.store') }}" method="post">
         @csrf
         <div class="mb-3">
             <label for="name_catagory" class="form-label">Nama Katagori Konten</label>

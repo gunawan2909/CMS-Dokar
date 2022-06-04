@@ -182,7 +182,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Top Profile',
             'page' => 'Profile',
             'orientasi' => '1',
-            'view' => '..'
+            'view' => '1'
         ]);
 
         Content::create([
@@ -196,7 +196,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Keunggulan',
             'page' => 'Profile',
             'orientasi' => '2',
-            'view' => '..'
+            'view' => '1'
         ]);
 
         Content::create([
@@ -225,7 +225,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'VisiMisi',
             'page' => 'Profile',
             'orientasi' => '3',
-            'view' => '..'
+            'view' => '1'
         ]);
 
         Content::create([
@@ -244,7 +244,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Mengapa Kami',
             'page' => 'Profile',
             'orientasi' => '4',
-            'view' => '..'
+            'view' => '1'
         ]);
         Content::create([
             'name' => 'KUALIFIKASI PENGUJI',
@@ -276,7 +276,7 @@ class DatabaseSeeder extends Seeder
             'describe' => 'Jenis Pengujian yang dilakukan di Pengujian Kendaraan Bermotor Dishub Grobogan',
             'page' => 'Pelayanan',
             'orientasi' => '1',
-            'view' => '..'
+            'view' => '1'
         ]);
         Content::create([
             'name' => 'Uji Baru',
@@ -314,7 +314,7 @@ class DatabaseSeeder extends Seeder
             'describe' => 'Alur pengujian yang dilakukan di Pengujian Kendaraan Bermotor Dishub Grobogan',
             'page' => 'Pelayanan',
             'orientasi' => '2',
-            'view' => '..'
+            'view' => '1'
         ]);
         Content::create([
             'name' => 'Alur Pelayanan Masuk',
@@ -332,7 +332,7 @@ class DatabaseSeeder extends Seeder
             'describe' => 'Besaran tarif retribusi berdasarkan penggolongan kendaraan adalah sebagai berikut',
             'page' => 'Pelayanan',
             'orientasi' => '2',
-            'view' => '..'
+            'view' => '1'
         ]);
         Content::create([
             'name' => 'Tarif Retribusi',
@@ -345,7 +345,7 @@ class DatabaseSeeder extends Seeder
             'describe' => 'Penuhi persyaratan berikut agar dapat melakukan pengujian kendaraan bermotor di Dishub Grobogan',
             'page' => 'Pelayanan',
             'orientasi' => '2',
-            'view' => '..'
+            'view' => '1'
         ]);
         Content::create([
             'name' => 'Syarat Pengujian',

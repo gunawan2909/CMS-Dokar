@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('page')->default('');
             $table->string('describe')->default('')->nullable();
             $table->string('orientasi')->default('');
-            $table->string('view')->default('');
+            $table->string('view')->default('1');
             $table->timestamps();
         });
     }

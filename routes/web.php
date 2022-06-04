@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\contentController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PelayananController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +24,5 @@ Route::get('/', function () {
 Route::resource('dashboard/home', HomeController::class);
 Route::resource('dashboard/profile', ProfileController::class);
 Route::resource('dashboard/content', contentController::class);
+Route::resource('dashboard/pelayanan', pelayananController::class);
 Route::get('dashboard/content/create/{catagory}', [contentController::class, 'createContent'])->name('content.create.content');
