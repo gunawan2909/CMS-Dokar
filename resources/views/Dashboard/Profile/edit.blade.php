@@ -32,6 +32,9 @@
             <option {{ $catagory->view === '1' ? 'selected' : '' }} value="1">Tampilan 1</option>
             <option {{ $catagory->view === '2' ? 'selected' : '' }} value="2">Tampilan 2</option>
             <option {{ $catagory->view === '3' ? 'selected' : '' }} value="3">Tampilan 3</option>
+            <option {{ $catagory->view === '4' ? 'selected' : '' }} value="4">Tampilan 4</option>
+            <option {{ $catagory->view === '5' ? 'selected' : '' }} value="5">Tampilan 5</option>
+            <option {{ $catagory->view === '6' ? 'selected' : '' }} value="6">Tampilan 6</option>
         </select>
         @error('view')
             <div class="invalid-feedback">

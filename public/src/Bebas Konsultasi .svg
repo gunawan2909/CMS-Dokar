@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#C7D8E3;stroke-width:10;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil4 {fill:none;fill-rule:nonzero}
+    .fil0 {fill:white}
+    .fil2 {fill:#C7D8E3;fill-rule:nonzero}
+    .fil3 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1741494766656">
+   <g>
+    <circle class="fil0 str0" cx="5812.14" cy="13091.04" r="1842.88"/>
+    <g>
+     <path class="fil0 str0" d="M4583.56 15252.69l2457.17 0c1351.44,0 2457.17,1105.73 2457.17,2457.18l0 3255.81 -7371.51 0 0 -3255.81c0,-1351.45 1105.73,-2457.18 2457.17,-2457.18z"/>
+     <line class="fil1 str0" x1="7654.97" y1="20965.68" x2="7654.97" y2= "17525.64" />
+     <line class="fil1 str0" x1="3969.32" y1="20965.7" x2="3969.32" y2= "17525.66" />
+    </g>
+    <path class="fil2 str0" d="M5435.51 15793.73l368.58 706.56 368.57 -706.56 -737.15 0zm184.28 353.28m368.57 0m-184.27 -353.28z"/>
+    <path class="fil2 str0" d="M5451.66 19255.22l368.57 -2307.66 368.58 2307.66 -737.15 0zm184.28 -1153.83m368.58 0m-184.29 1153.83z"/>
+   </g>
+   <circle class="fil3 str0" cx="15545.2" cy="13154.25" r="1842.88"/>
+   <g>
+    <path class="fil3 str0" d="M14316.61 15315.9l2457.17 0c1351.44,0 2457.17,1105.72 2457.17,2457.17l0 3255.82 -7371.51 0 0 -3255.82c0,-1351.45 1105.73,-2457.17 2457.17,-2457.17z"/>
+    <line class="fil4 str0" x1="17388.02" y1="21028.89" x2="17388.02" y2= "17588.85" />
+    <line class="fil4 str0" x1="13702.37" y1="21028.9" x2="13702.37" y2= "17588.86" />
+   </g>
+  </g>
+ </g>
+</svg>

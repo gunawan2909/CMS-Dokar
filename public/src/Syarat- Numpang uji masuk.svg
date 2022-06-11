@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="200mm" height="200mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 20000 20000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#8EB1C7;stroke-width:10;stroke-miterlimit:22.9256}
+    .fil2 {fill:none}
+    .fil1 {fill:#8EB1C7}
+    .fil3 {fill:white}
+    .fil0 {fill:white}
+    .fil4 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1740090386032">
+   <g>
+    <rect class="fil0 str0" x="5639.77" y="7596.75" width="8705.26" height="11407.54"/>
+    <rect class="fil1 str0" x="11929.4" y="8774.56" width="1809.12" height="1922.39"/>
+    <line class="fil2 str0" x1="6287.61" y1="9871.53" x2="11309" y2= "9871.53" />
+    <rect class="fil1 str0" x="11929.4" y="11212.16" width="1809.12" height="1922.39"/>
+    <line class="fil2 str0" x1="6218.49" y1="12309.13" x2="11239.87" y2= "12309.13" />
+    <rect class="fil1 str0" x="11929.4" y="13649.76" width="1809.12" height="1922.39"/>
+    <line class="fil2 str0" x1="6195.47" y1="14746.73" x2="11216.86" y2= "14746.73" />
+    <rect class="fil1 str0" x="11929.4" y="16087.36" width="1809.12" height="1922.39"/>
+    <line class="fil2 str0" x1="6379.76" y1="17184.33" x2="11401.15" y2= "17184.33" />
+    <rect class="fil3 str0" x="7760.31" y="7245.65" width="4307.38" height="667.97"/>
+   </g>
+   <path class="fil4 str0" d="M11262.85 5854.44l0 -2421.77 1270.43 0 -2540.88 -2421.79 -2540.88 2421.79 1270.43 0 0 2421.77 2540.9 0zm0 -1210.87m635.21 -1210.9m-635.21 -1210.89m-2540.88 0m-635.24 1210.89m635.22 1210.9m1270.45 1210.87"/>
+  </g>
+ </g>
+</svg>

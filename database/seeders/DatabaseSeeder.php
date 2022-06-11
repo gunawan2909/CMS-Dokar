@@ -352,5 +352,14 @@ class DatabaseSeeder extends Seeder
             'body' =>  '',
             'Catagory_id' => '10'
         ]);
+        //Jenis pengujian 
+
+        Catagory::create([
+            'name' => 'Hukum',
+            'describe' => 'Kumpulan-Kumpulan Data Perundang-undangan tentang pengujian',
+            'page' => 'Hukum',
+            'orientasi' => '1',
+            'view' => '1'
+        ]);
     }
 }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="200mm" height="200mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 20000 20000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#8EB1C7;stroke-width:10;stroke-miterlimit:22.9256}
+    .fil2 {fill:none}
+    .fil1 {fill:#8EB1C7}
+    .fil3 {fill:white}
+    .fil0 {fill:white}
+    .fil4 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1740093793968">
+   <g>
+    <rect class="fil0 str0" x="5691.32" y="7500.78" width="8602.16" height="11272.45"/>
+    <rect class="fil1 str0" x="11906.47" y="8664.65" width="1787.69" height="1899.63"/>
+    <line class="fil2 str0" x1="6331.49" y1="9748.63" x2="11293.41" y2= "9748.63" />
+    <rect class="fil1 str0" x="11906.47" y="11073.38" width="1787.69" height="1899.63"/>
+    <line class="fil2 str0" x1="6263.19" y1="12157.36" x2="11225.1" y2= "12157.36" />
+    <rect class="fil1 str0" x="11906.47" y="13482.11" width="1787.69" height="1899.63"/>
+    <line class="fil2 str0" x1="6240.44" y1="14566.09" x2="11202.36" y2= "14566.09" />
+    <rect class="fil1 str0" x="11906.47" y="15890.84" width="1787.69" height="1899.63"/>
+    <line class="fil2 str0" x1="6422.55" y1="16974.82" x2="11384.47" y2= "16974.82" />
+    <rect class="fil3 str0" x="7786.74" y="7153.84" width="4256.37" height="660.06"/>
+   </g>
+   <path class="fil4 str0" d="M8737 1241.95l0 2393.09 -1255.38 0 2510.78 2393.11 2510.79 -2393.11 -1255.38 0 0 -2393.09 -2510.81 0zm0 1196.53m-627.69 1196.56m627.69 1196.55m2510.79 0m627.71 -1196.55m-627.69 -1196.56m-1255.41 -1196.53"/>
+  </g>
+ </g>
+</svg>

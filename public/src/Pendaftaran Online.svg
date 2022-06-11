@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#8EB1C7;stroke-width:564.44;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1741519427904">
+   <g>
+    <g>
+     <path class="fil0 str0" d="M4470.37 20808l11.36 -10.24c3205.08,-2815.82 7955.48,-2744.08 11070.22,9.52 -1476.81,1303.65 -3416.46,2095.12 -5541.21,2095.12 -2124.36,0 -4063.65,-791.16 -5540.37,-2094.4z"/>
+     <path class="fil0 str0" d="M15551.14 8242.52l-11.34 10.22c-3205.1,2815.84 -7955.45,2744.05 -11070.21,-9.55 1476.81,-1303.65 3416.4,-2095.1 5541.15,-2095.1 2124.39,0 4063.67,791.2 5540.4,2094.43z"/>
+    </g>
+    <g>
+     <path class="fil0 str0" d="M6568.85 19451.69c2196.54,-990.55 4713.46,-976.14 6883.78,0.02 -773.74,2091.19 -2027.07,3450.69 -3441.89,3450.69 -1414.85,0 -2668.15,-1359.5 -3441.89,-3450.71z"/>
+     <path class="fil0 str0" d="M13452.66 9598.81c-2196.54,990.54 -4713.49,976.14 -6883.81,-0.03 773.77,-2091.18 2027.07,-3450.69 3441.89,-3450.69 1414.85,0 2668.18,1359.53 3441.92,3450.72z"/>
+    </g>
+    <g>
+     <line class="fil0 str0" x1="10010.74" y1="18714.36" x2="10010.74" y2= "22902.4" />
+     <line class="fil0 str0" x1="10010.74" y1="6148.09" x2="10010.74" y2= "10336.14" />
+    </g>
+   </g>
+   <g>
+    <ellipse class="fil0 str0" cx="10010.74" cy="14525.25" rx="8377.14" ry="8377.15"/>
+    <ellipse class="fil0 str0" transform="matrix(0 2.79238 -2.79238 0 10010.7 14525.2)" rx="3000" ry="1523.99"/>
+    <line class="fil0 str0" x1="10010.74" y1="6148.09" x2="10010.74" y2= "22902.4" />
+    <line class="fil0 str0" x1="1634.87" y1="14671.71" x2="18387.89" y2= "14525.25" />
+   </g>
+  </g>
+ </g>
+</svg>

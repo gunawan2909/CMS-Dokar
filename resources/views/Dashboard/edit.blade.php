@@ -24,7 +24,7 @@
             <label for="image" class="form-label">Gambar</label>
             @if ($content->directory)
                 <img class="img-preview img-fluid col-3 m-2" src="{{ asset('storage/' . $content->directory) }}"
-                    style="display: block">
+                    style="display: block; width: 200px">
             @else
                 <img class="img-preview img-fluid col-3 m-2">
             @endif
