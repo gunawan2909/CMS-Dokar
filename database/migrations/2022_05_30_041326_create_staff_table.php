@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('facebook');
             $table->string('instagram');
-            $table->string('photo');
+            $table->string('photo')->default();
             $table->timestamps();
         });
     }

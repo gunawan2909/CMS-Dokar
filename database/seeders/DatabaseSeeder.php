@@ -27,6 +27,12 @@ class DatabaseSeeder extends Seeder
 
 
         //Staff::factory(10)->create();
+        Staff::create([
+            'name' => 'Dokar',
+            'email' => 'Dokar@gmail.com',
+            'facebook' => 'dokar.Facebook.com',
+            'instagram' => 'instagram.dokar.com',
+        ]);
 
 
 

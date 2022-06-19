@@ -439,7 +439,9 @@ footer {
         line-height: normal !important;
         font-size: 12px;
     }
-
+    a {
+        text-decoration: none;
+    }
     
     .boxlogin{
         color: #FFFFFF;
