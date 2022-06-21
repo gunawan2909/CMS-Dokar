@@ -1,4 +1,4 @@
-@extends('Dashboard.index')
+@extends('dashboard.index')
 
 @section('constrain')
     <div class="border-bottom">
@@ -30,8 +30,7 @@
 
         <div class="mb-3">
             <label for="describe" class="form-label">Keterangan Katagori Konten</label>
-            <textarea class="form-control @error('describe') is-invalid @enderror" id="describe" name="describe"
-                rows="3">{{ old('describe') }}</textarea>
+            <textarea class="form-control @error('describe') is-invalid @enderror" id="describe" name="describe" rows="3">{{ old('describe') }}</textarea>
             @error('describe')
                 <div class="invalid-feedback">
                     {{ $message }}

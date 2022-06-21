@@ -21,7 +21,6 @@
         trix-toolbar [data-trix-button-group='file-tools'] {
             display: none;
         }
-
     </style>
     <script>
         document.addEventListener('trix-file-accept', function(e) {
@@ -32,11 +31,11 @@
 
 <body>
 
-    @include('Dashboard.Header.index')
+    @include('dashboard.header.index')
 
-    <div class="container-fluid">
+    <div class="container-flui d">
         <div class="row">
-            @include('Dashboard.NavBar.index')
+            @include('dashboard.navbar.index')
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 @yield('constrain')
             </main>

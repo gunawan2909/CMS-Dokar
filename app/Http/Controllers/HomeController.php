@@ -16,7 +16,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('Dashboard.home.index', [
+        return view('Dashboard.Home.index', [
             'catagories' => Catagory::where('page', 'home')->get(),
             'active' => 'home'
         ]);
@@ -25,7 +25,7 @@ class HomeController extends Controller
 
     public function create()
     {
-        return view('Dashboard.home.input', ['active' => 'home']);
+        return view('Dashboard.Home.input', ['active' => 'home']);
     }
 
 
@@ -54,7 +54,7 @@ class HomeController extends Controller
     public function edit($id)
     {
 
-        return view('Dashboard.home.edit', [
+        return view('Dashboard.Home.edit', [
             'catagory' => Catagory::find($id),
             'active' => 'home'
         ]);

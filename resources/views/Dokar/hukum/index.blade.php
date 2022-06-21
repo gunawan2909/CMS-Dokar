@@ -1,4 +1,4 @@
-@extends('Dokar.index')
+@extends('dokar.index')
 @section('constrain')
     @foreach ($catagories as $catagory)
         <div class="container">

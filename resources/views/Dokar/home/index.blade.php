@@ -1,4 +1,4 @@
-@extends('Dokar.index')
+@extends('dokar.index')
 @section('constrain')
     <div class="row" style="padding: 30px">
         <div class="col mb-2">
@@ -53,7 +53,7 @@
                 @endif
                 <div class="col align-self-center">
 
-                    @include('Dashboard.view')
+                    @include('dashboard.view')
                 </div>
 
             </div>

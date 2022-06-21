@@ -1,4 +1,4 @@
-@extends('Dokar.index')
+@extends('dokar.index')
 @section('constrain')
     <div class="container">
         <div class="row mb-3">

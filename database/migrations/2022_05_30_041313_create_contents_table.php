@@ -15,10 +15,10 @@ return new class extends Migration
     {
         Schema::create('contents', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->default('');
-            $table->string('directory')->default('');
-            $table->text('body')->default('');
-            $table->foreignId('Catagory_id');
+            $table->string('name')->default('none');
+            $table->string('directory')->default('none');
+            $table->text('body')->default('none');
+            $table->foreignId('Catagory_id')->default(1);
             $table->timestamps();
         });
     }

@@ -1,4 +1,4 @@
-@extends('Dashboard.index')
+@extends('dashboard.index')
 
 @section('constrain')
     <div class="border-bottom">
@@ -21,7 +21,8 @@
         <div class="mb-3">
             <label for="file" class="form-label">Gambar</label>
             <div class="input-group mb-3">
-                <input type="file" class="form-control @error('file') is-invalid @enderror" id="file" name="file">
+                <input type="file" class="form-control @error('file') is-invalid @enderror" id="file"
+                    name="file">
                 <label class=" input-group-text" for="file">Upload</label>
                 @error('file')
                     <div class="invalid-feedback">

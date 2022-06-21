@@ -35,11 +35,19 @@ return [
             'root' => storage_path('app'),
             'throw' => false,
         ],
+        'oci' => [
+            'driver' => 's3',
+            'key' => env('OCI_ACCESS_KEY_ID'),
+            'secret' => env('OCI_SECRET_ACCESS_KEY'),
+            'region' => env('OCI_DEFAULT_REGION'),
+            'bucket' => env('OCI_BUCKET'),
+            'url' => env('OCI_URL'),
+        ],
 
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
+            'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
             'throw' => false,
         ],

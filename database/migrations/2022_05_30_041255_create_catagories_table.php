@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('catagories', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->default('');
-            $table->string('page')->default('');
+            $table->string('name')->default('None');
+            $table->string('page')->default('None');
             $table->string('describe')->default('')->nullable();
             $table->string('orientasi')->default('');
             $table->string('view')->default('1');

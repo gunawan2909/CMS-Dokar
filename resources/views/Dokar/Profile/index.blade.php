@@ -1,4 +1,4 @@
-@extends('Dokar.index')
+@extends('dokar.index')
 @section('constrain')
     @foreach ($catagories as $catagory)
         <div class="row ms-3">
@@ -21,7 +21,7 @@
                 @endswitch
 
                 <div class="col align-self-center">
-                    @include('Dashboard.view')
+                    @include('dashboard.view')
                 </div>
 
             </div>

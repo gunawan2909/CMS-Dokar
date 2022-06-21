@@ -1,4 +1,4 @@
-@extends('Dashboard.index')
+@extends('dashboard.index')
 
 @section('constrain')
     <a class="btn btn-outline-primary m-2" href="{{ Route('home.create') }}" role="button">Tambah Katagori Konten</a>
@@ -27,7 +27,7 @@
             </div>
 
             <h6>{{ $catagory->describe }}</h6>
-            @include('Dashboard.view')
+            @include('dashboard.view')
 
         </div>
     @endforeach

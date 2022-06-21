@@ -1,4 +1,4 @@
-@extends('Dashboard.index')
+@extends('dashboard.index')
 
 @section('constrain')
     <div class="border-bottom">
@@ -22,8 +22,8 @@
             <label for="image" class="form-label">Gambar</label>
             <img class="img-preview img-fluid col-3 m-2">
             <div class="input-group mb-3">
-                <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image"
-                    onchange="previewImage()">
+                <input type="file" class="form-control @error('image') is-invalid @enderror" id="image"
+                    name="image" onchange="previewImage()">
                 <label class="input-group-text" for="image">Upload</label>
                 @error('image')
                     <div class="invalid-feedback">

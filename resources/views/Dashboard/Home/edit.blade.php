@@ -1,4 +1,4 @@
-@extends('Dashboard.index')
+@extends('dashboard.index')
 
 @section('constrain')
     <div class="border-bottom">

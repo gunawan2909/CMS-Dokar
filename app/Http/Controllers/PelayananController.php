@@ -16,7 +16,7 @@ class PelayananController extends Controller
      */
     public function index()
     {
-        return view('Dashboard.pelayanan.index', [
+        return view('Dashboard.Pelayanan.index', [
             'catagories' => Catagory::where('page', 'pelayanan')->get(),
             'active' => 'pelayanan'
         ]);
@@ -29,7 +29,7 @@ class PelayananController extends Controller
      */
     public function create()
     {
-        return view('Dashboard.pelayanan.input', ['active' => 'pelayanan']);
+        return view('Dashboard.Pelayanan.input', ['active' => 'pelayanan']);
     }
 
     /**

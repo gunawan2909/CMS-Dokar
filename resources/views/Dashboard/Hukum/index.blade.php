@@ -1,4 +1,4 @@
-@extends('Dashboard.index')
+@extends('dashboard.index')
 
 @section('constrain')
     <a class="btn btn-outline-primary m-2" href="{{ Route('hukum.create') }}" role="button">Tambah Data</a>
